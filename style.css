@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box
+}
+body {
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+}
+.d3-container {
+  padding-top: 1rem
+}
+#map {
+  box-shadow: 0 0 20px 0 chartreuse;
+  border-radius: 35%;
+}
+.counties {
+  fill: none
+}
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round
+}
+.tooltip {
+  color: #fff;
+  position: absolute;
+  padding: 10px;
+  background: rgba(0,0,0,0.9);
+  box-shadow: 1px 1px 10px rgba(128,128,128,.6);
+  border: 0;
+  border-radius: 2px;
+  pointer-events: none
+}
+#source {
+  align-self: flex-end;
+  margin-top: 1rem
+}
+.county:hover {
+  stroke: #000;
+  fill: rgba(243, 135, 1)
+}
+a {
+  text-decoration: none
+}
