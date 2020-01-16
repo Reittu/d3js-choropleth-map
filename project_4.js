@@ -1,7 +1,5 @@
 
-const svg = d3.select('#map'),
-  width = +svg.attr('width'),
-  height = +svg.attr('height');
+const svg = d3.select('#map');
 
 const tooltip = d3.select('body').append('div')
   .attr('class', 'tooltip')
@@ -11,7 +9,6 @@ const tooltip = d3.select('body').append('div')
 
 const unemployment = d3.map();
 const path = d3.geoPath();
-
 
 // Start of legend related section
 

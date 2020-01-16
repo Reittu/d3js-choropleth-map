@@ -44,3 +44,15 @@ body {
 a {
   text-decoration: none
 }
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: .5rem;
+  }
+  #map {
+    width: 75vw !important;
+  }
+  #legend {
+    width: 18vw !important;
+  }
+}
+
